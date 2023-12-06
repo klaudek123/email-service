@@ -1,0 +1,56 @@
+body {
+    background-color: #FFFF99;
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    align-items: center;
+}
+
+.header-container{
+    height: 10%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.registration-form {
+    margin-left: 3%;
+    width: 60%;
+    padding: 3%;
+}
+
+.registration-form h1, .registration-form h3 {
+    text-align: center;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#style {
+    background-color: #f8f8f8;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}

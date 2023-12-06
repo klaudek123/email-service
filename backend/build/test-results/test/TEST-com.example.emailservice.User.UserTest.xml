@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.emailservice.User.UserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-06T12:45:54" hostname="ACER" time="2.018">
+  <properties/>
+  <testcase name="testGetUserByEmail()" classname="com.example.emailservice.User.UserTest" time="1.927"/>
+  <testcase name="testGetAllUsers()" classname="com.example.emailservice.User.UserTest" time="0.01"/>
+  <testcase name="testUpdateUser()" classname="com.example.emailservice.User.UserTest" time="0.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
