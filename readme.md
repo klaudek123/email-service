@@ -42,9 +42,27 @@ EmailApp to aplikacja do zarządzania skrzynką pocztową. Pozwala na rejestracj
 
 ## API
 ### Endpointy
--
--
--
+1.MailController:
+- GET `/api/mails/all` Zwraca listę wszystkich maili.
+- GET `/api/mails?id={id}` Zwraca mail o określonym ID.
+- POST `/api/mails/sent` Wysyła nowego maila.
+- GET `/api/mails/sent?owner={owner}` Zwraca listę wysłanych maili dla określonego właściciela.
+- GET `/api/mails/received?owner={owner}` Zwraca listę odebranych maili dla określonego właściciela.
+- GET `/api/mails/saved?owner={owner}` Zwraca listę zapisanych maili dla określonego właściciela.
+- POST `/api/mails/unsent` Zapisuje niewysłany mail.
+- PUT `/api/mails/{mailId}/trashed` Przenosi mail do kosza.
+- PUT `/api/mails/{mailId}/restore` Przywraca mail z kosza.
+- GET `/api/mails/trashed?owner={owner}` Zwraca listę maili w koszu dla określonego właściciela.
+- DELETE `/api/mails/{id}` Usuwa mail o określonym ID.
+
+2.UserController:
+- GET `/api/users/all` Zwraca listę wszystkich użytkowników.
+- GET `/api/users?email={email}` Zwraca użytkownika o określonym adresie email.
+- POST `/api/users` Tworzy nowego użytkownika.
+- POST `/api/users/login` Loguje użytkownika.
+- PUT `/api/users/{email}` Aktualizuje dane użytkownika o określonym adresie email.
+- DELETE `/api/users/{email}` Usuwa użytkownika o określonym adresie email.
+
 
 ## Autorzy
 - Klaudiusz Szklarkowski (@klaudek123)
