@@ -32,7 +32,6 @@ EmailApp to aplikacja do zarządzania skrzynką pocztową. Pozwala na rejestracj
 ## Struktura katalogów
 - **/backend**: Kod źródłowy backendu
 - **/frontend**: Kod źródłowy frontendu
-- **/docs**: Dokumentacja, schematy, itp.
 
 ## Instrukcje użycia
 1. Zarejestruj nowe konto.
